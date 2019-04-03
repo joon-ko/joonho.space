@@ -1,0 +1,121 @@
+body {
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+
+#about {
+	padding-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 15vh;
+}
+
+#top {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	letter-spacing: 2px;
+}
+
+#name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+
+	color: white;
+	transition: color 0.5s;
+
+	font-size: 32px;
+}
+
+@media screen and (max-width: 575px) {
+	#name {
+		font-size: 20px;
+	}
+	#top {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	#projects {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+		margin-top: 15px;
+	}
+	#classes {
+		margin-top: 15px;
+	}
+}
+
+#name:hover {
+	color: #46BCDE;
+	transition: color 0.5s;
+}
+
+#projects {
+	margin-left: auto;
+	margin-right: 40px;
+	cursor: pointer;
+
+	color: white;
+	transition: color 0.5s;
+}
+
+#projects:hover {
+	color: #E94F64;
+	transition: color 0.5s;
+}
+
+#classes {
+	cursor: pointer;
+	color: white;
+	transition: color 0.5s;
+}
+
+#classes:hover {
+	color: #52D273;
+	transition: color 0.5s;
+}
+
+.underline {
+	height: 2px;
+	margin-top: 7px;
+}
+
+.blue {
+	background-color: #46BCDE;
+}
+
+.red {
+	background-color: #E94F64;
+}
+
+.green {
+	background-color: #52D273;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #46BCDE;
+}
+
+ul {
+	padding-left: 1.5em;
+}
