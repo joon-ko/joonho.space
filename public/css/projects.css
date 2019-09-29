@@ -58,6 +58,13 @@ body {
 	background-image: url('/img/fingerspell.png');
 }
 
+#colors-of-fifths {
+	background-image: url('/img/cof-icon.png');
+    background-size: contain;
+    width: 200px;
+    height: auto;
+}
+
 .summary {
 	margin-left: 50px;
 }
